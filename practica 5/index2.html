@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid bg-body-secondary ">
+        <header>
+            <nav class="row navbar navbar-expand-lg bg-body-tertiary justify-content-between pb-0">
+                <div class="col-12 col-lg-8 col-md-6 container-fluid justify-content-center justify-content-md-start  ">
+                    <h1><a href="#" class="navbar-brand me-2 fs-2 ">Camila Cañete</a></h1>
+                    <span>· Desarrollador web</span>
+                </div>
+                <div class="btn-group col-12 col-lg-4 col-md-6 ">
+                    <a href="#portafolio" class="btn btn-info active text-white rounded-0 " aria-current="page">
+                        <p class="my-0">Portafolio</p>
+                        <img src="./imagenes/briefcase-fill.svg" alt="portafolio" class="my-1">
+                    </a>
+                    <a href="#acerdade" class="btn btn-primary ">
+                        <p class="my-0">Acerca de</p>
+                        <img src="./imagenes/person-fill.svg" alt="acerdade" class="my-1">
+                    </a>
+                    <a href="#contacto" class="btn btn-dark rounded-0">
+                        <p class="my-0 ">Contacto</p>
+                        <img src="./imagenes/envelope-fill.svg" alt="contacto" class="my-1">
+                    </a>
+                </div>
+
+            </nav>
+            <figure id="carouselExample" class="carousel slide mb-3">
+                <div class="carousel-inner">
+                    <figure class="carousel-item active">
+                    <img src="./imagenes/slide3.jpg" class="d-block w-100" alt="...">
+                    </figure>
+                    <figure class="carousel-item">
+                    <img src="./imagenes/slide2.jpg" class="d-block w-100" alt="...">
+                    </figure>
+                    <figure class="carousel-item">
+                    <img src="./imagenes/slide1.jpg" class="d-block w-100" alt="...">
+                    </figure>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </figure>
+        </header>
+        <main class="container-fluid bg-light p-0 ">
+            <hr class="border border-primary border-3 opacity-75 mt-0 mb-3 ">
+            <section class="row justify-content-center  justify-content-center">
+                <h2 class="text-primary display-4 text-center pt-3 m-0 " id = "portafolio">Portafolio</h2>
+
+                <div class="row pb-2 d-flex p-md-5 p-4 justify-content-center ">
+                    <figure class="col-6 col-md-4 overflow-hidden order-0 order-md-0  my-2  ">
+                        <img src="./imagenes/img-1.jpg" alt="" class="img-fluid ">
+                    </figure>
+                    <figure class="col-md-8 col-12 order-2 order-md-1 my-2  ">
+                        <img src="./imagenes/img-2.jpg" alt="" class="img-fluid h-100 w-100 ">
+                    </figure>
+                    <figure class="col-md-8 col-12 order-5 order-md-2 my-2  ">
+                        <img src="./imagenes/img-3.jpg" alt="" class="img-fluid h-100 w-100">
+                    </figure>
+                    <figure class=" col-md-4 col-6 order-1 order-md-3 my-2  ">
+                        <img src="./imagenes/img-4.jpg" alt="" class="img-fluid">
+                    </figure>
+                    <figure class="col-6  col-md-4 order-4 order-md-4  my-2  ">
+                        <img src="./imagenes/img-5.jpg" alt="" class="img-fluid">                
+                    </figure>
+                    <figure class="col-6  col-md-4 order-3 order-md-5 my-2  ">
+                        <img src="./imagenes/img-6.jpg" alt="" class="img-fluid">
+                    </figure>
+                    <figure class="col-6 col-md-4 order-last order-md-last  my-2  ">
+                        <img src="./imagenes/img-7.jpg" alt="" class="img-fluid">
+                    </figure>
+                </div>
+            </section>
+            <section class="row justify-content-lg-end  bg-body-secondary px-3 py-4 ">
+                <figure class="col-lg-3 col-12 col-md-12  align-content-center text-center pt-3 ">
+                    <img src="./imagenes/foto.jpg" alt="" class="img-fluid rounded-circle">
+                    <figcaption class="my-3 text-secondary fs-4 display-6 ">
+                        Carlos Arturo
+                    </figcaption>
+                </figure>
+                <section class="col-lg-8 col-md-12  text-start px-5 ">
+                    <h3 class="text-info-emphasis display-6 mb-4" id = "acerdade">Acerca de</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque odio illum sint ad suscipit eligendi totam magnam, repellendus ab. Veritatis laudantium praesentium voluptatem cumque veniam ipsa, numquam similique amet ex.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, cum. Fugiat sapiente eius magnam est non consectetur atque placeat nemo pariatur consequuntur expedita, odit sed quasi tempora dolorem iusto necessitatibus.</p>
+
+                    <div class="fs-6 ">
+                        <h4 class=" text-info-emphasis mb-2 mt-3 ">HTML</h4>
+                        <div class="progress rounded-0 my-1" role="progressbar"  aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="height: 22px;">
+                            <div class="progress-bar bg-primary bg-opacity-75 text-start px-4" style="width: 95%">95%</div>
+                            <div class="progress-bar bg-primary " style="width: 10%"></div>
+                        </div>
+                        <h4 class="text-info-emphasis mb-2 mt-3">CSS</h4>
+                        <div class="progress rounded-0 my-1" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="height: 22px;">
+                            <div class="progress-bar bg-primary bg-opacity-75 text-start px-4" style="width: 100%">100%</div>
+                        </div>
+                        <h4 class="text-info-emphasis mb-2 mt-3 ">JS</h4>
+                        <div class="progress rounded-0 my-1" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="height: 22px;">
+                            <div class="progress-bar bg-primary bg-opacity-75 text-start px-4 " style="width: 85%">85%</div>
+                            <div class="progress-bar bg-primary " style="width: 15%"></div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="row text-center bg-body-secondary pt-5 ">
+                <div class="col px-5 ">
+                    <hr class="mt-0 mb-3 ">
+                    <h2 class="display-6 my-4" id="contacto">Contacto</h2>
+                    <form class="row g-4 w-100  mx-auto p-lg-5  p-md-0 ">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control rounded-0 fw-light" id="name" placeholder = "Nombre">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control rounded-0 fw-light" id="email" placeholder = "Email">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control rounded-0" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                            <label for="floatingTextarea2" class="ps-4 fw-light">Mensaje</label>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center mt-5">
+                            <button type="submit" class="btn btn-primary bg-primary-50 rounded-0 btn-lg px-4">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container-fluid ">
+                <div class="row justify-content-between  text-center py-5">
+                    <div class="col mx-auto  justify-content-center ">
+                        <a href="https://www.twitter.com/"  class="btn btn-info  rounded-circle  p-4 m-3">
+                            <img src="./imagenes/twitter.svg" alt="facebook">
+                        </a>
+                        <a href="https://www.instagram.com/"  class="btn btn-danger  rounded-circle  p-4 m-3">
+                            <img src="./imagenes/instagram.svg" alt="facebook">
+                        </a>
+                        <a href="https://www.facebook.com/"  class="btn btn-primary rounded-circle  p-4 m-3">
+                            <img src="./imagenes/facebook.svg" alt="facebook">
+                        </a>                             
+                    </div>
+                </div>
+            </div>   
+
+        </footer>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
